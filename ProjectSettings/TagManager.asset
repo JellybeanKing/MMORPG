@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Teleporter
+  - Enemy
+  - Terrain
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
@@ -38,6 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Terrain
+    uniqueID: 1628358129
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1389682037
     locked: 0
